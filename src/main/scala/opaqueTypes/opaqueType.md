@@ -1,0 +1,4 @@
+- Opaque types have no APIs implemented by default — including apply and toString
+- No access to underlying type’s APIs, unless a context-bound is applied
+- Opaque types don’t support pattern matching
+- Opaque types are completely erased at runtime
